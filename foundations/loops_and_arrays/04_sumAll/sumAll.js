@@ -5,7 +5,7 @@ const sumAll = function (min, max) {
   if (min > max) {
     [max, min] = [min, max];
   }
-  res = 0;
+  let res = 0;
   for (let i = min; i <= max; i++) {
     res += i;
   }
